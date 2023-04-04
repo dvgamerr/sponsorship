@@ -1,0 +1,20 @@
+---
+import { version } from '../../package.json'
+const today = new Date()
+---
+
+<footer>
+	<div class="licensed">
+		&copy; {today.getFullYear()} <b>TOUNO.io</b> design by
+		<a href="https://mr.touno.io/" target="_blank">Kananek T.</a> v{version}
+	</div>
+</footer>
+<style>
+	footer {
+		display: flex;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: .8rem;
+		grid-column-gap: 0.2em;
+		justify-content: center;
+	}
+</style>

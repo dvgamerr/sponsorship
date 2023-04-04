@@ -13,7 +13,8 @@
     "@astrojs/mdx": "^0.18.2",
     "@astrojs/rss": "^2.3.2",
     "@astrojs/sitemap": "^1.2.1",
-    "astro": "^2.1.9"
+    "astro": "^2.1.9",
+    "bootstrap": "^5.2.3"
   },
   "description": "``` npm create astro@latest -- --template blog ```",
   "main": "index.js",

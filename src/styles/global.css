@@ -1,0 +1,49 @@
+:root {
+	--text-color: #404453;
+	--text-link-color: #3068d8;
+	--background-color: #f7f7f7;
+	--background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIwJSIgeDI9IjUwJSIgeTI9Ijk3LjExOSUiIGlkPSJhIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI2YzZjNmMyIgb2Zmc2V0PSIwJSIvPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjZWVlZWVlIiBvZmZzZXQ9IjEwMCUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NTAgLTEyMTIpIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPGNpcmNsZSBmaWxsPSJ1cmwoI2EpIiBjeD0iNTgxIiBjeT0iMTcxMiIgcj0iMzA2Ii8+CiAgICA8Y2lyY2xlIGZpbGw9InVybCgjYSkiIGN4PSIyMDQ1IiBjeT0iMTQ4OCIgcj0iMzA2Ii8+CiAgICA8Y2lyY2xlIHN0cm9rZT0idXJsKCNhKSIgc3Ryb2tlLXdpZHRoPSIyIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTcyNCAyMDg2KSIgY3g9IjE3MjQiIGN5PSIyMDg2IiByPSIzMDYiLz4KICA8L2c+Cjwvc3ZnPgo=");
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text-color: #e2e2e2;
+		--background-color: #10121e;
+		--background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIwJSIgeDI9IjUwJSIgeTI9Ijk3LjExOSUiIGlkPSJhIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzBGMTIxRiIgb2Zmc2V0PSIwJSIvPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMTMxNzI0IiBvZmZzZXQ9IjEwMCUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NTAgLTEyMTIpIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPGNpcmNsZSBmaWxsPSJ1cmwoI2EpIiBjeD0iNTgxIiBjeT0iMTcxMiIgcj0iMzA2Ii8+CiAgICA8Y2lyY2xlIGZpbGw9InVybCgjYSkiIGN4PSIyMDQ1IiBjeT0iMTQ4OCIgcj0iMzA2Ii8+CiAgICA8Y2lyY2xlIHN0cm9rZT0idXJsKCNhKSIgc3Ryb2tlLXdpZHRoPSIyIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTcyNCAyMDg2KSIgY3g9IjE3MjQiIGN5PSIyMDg2IiByPSIzMDYiLz4KICA8L2c+Cjwvc3ZnPgo=");
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--text-color);
+	background: var(--background-color);
+	background-image: var(--background-image);
+}
+
+a {
+	color: var(--text-link-color);
+	text-decoration: none;
+	opacity: .9;
+}
+a:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: .9rem;
+	font-weight: 400;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh - 34px);
+}
+footer {
+	height: 34px;
+}
